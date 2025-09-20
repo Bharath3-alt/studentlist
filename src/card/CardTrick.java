@@ -57,3 +57,11 @@ public class CardTrick {
             }   
         }
         
+        // Report the result to the user
+        if (found) {
+            System.out.println("Congratulations! Your card is in the magic hand.");
+        } else {
+            System.out.println("Sorry, your card is not in the magic hand.");
+        }
+    }
+}
