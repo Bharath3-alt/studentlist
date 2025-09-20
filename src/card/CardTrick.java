@@ -54,14 +54,6 @@ public class CardTrick {
             if (card.getValue() == userCard.getValue() && card.getSuit().equalsIgnoreCase(userCard.getSuit())) {
                 found = true;
                 break;
-            }
+            }   
         }
         
-        // Report the result to the user
-        if (found) {
-            System.out.println("Congratulations! Your card is in the magic hand.");
-        } else {
-            System.out.println("Sorry, your card is not in the magic hand.");
-        }
-    }
-}
